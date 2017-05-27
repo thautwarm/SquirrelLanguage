@@ -8,12 +8,14 @@ SquirrelLang
 基本数据类型全是C++的。
 语法很简单：
 
-  -1. 声明
-
+- 1. 声明
+.. code:: squirrel
       var : int [1];
 
       "[]"表示的是参数列表。
-  -2.定义
+
+- 2.定义
+.. code:: squirrel
 
       var := [arg:int=>int]{
           return arg+1;
@@ -36,11 +38,15 @@ SquirrelLang
         }; //一个接受两个参数，返回[int=>int]类型的成员函数
       };
       //这么设计虽然不能柯里化，但是可以字典传参啊（逃
-  -3.导入包
-  
+
+- 3.导入包
+.. code:: squirrel
+
       using <= (Squirrel的Package Name)
       #include <- (C++的头文件或源文件)
-  -4.goto语句
+
+- 4.goto语句
+.. code:: squirrel
 
       =>=>where_you_wanna_goto;
       &here_you_wanna_goto;
