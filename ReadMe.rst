@@ -10,6 +10,7 @@ SquirrelLang
 
 - 1. 声明
 .. code:: squirrel
+
       var : int [1];
 
       "[]"表示的是参数列表。
