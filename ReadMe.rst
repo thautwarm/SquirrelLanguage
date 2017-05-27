@@ -8,7 +8,7 @@ SquirrelLang
 基本数据类型全是C++的。
 语法很简单：
 
-- 1. 声明
+- 1.声明
 .. code:: squirrel
 
       var : int [1];
